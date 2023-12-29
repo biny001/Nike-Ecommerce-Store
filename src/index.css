@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* styles.css */
+  .link {
+    @apply relative text-slate-900 transition-colors duration-300 hover:text-slate-900;
+  }
+
+  .link::before {
+    @apply absolute bottom-0 left-0 h-[4px] w-full origin-right scale-x-0 transform  rounded-[4px]   bg-red-500 transition-transform duration-300 content-[''];
+  }
+
+  .link:hover::before {
+    @apply origin-left scale-x-100;
+  }
+}

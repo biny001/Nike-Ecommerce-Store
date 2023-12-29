@@ -1,0 +1,154 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "name": "Nike Air Max 270",
+      "price": 129.99,
+      "category": "Running",
+      "color": "Black/White",
+      "size": ["US 9", "US 10", "US 11"],
+      "rating": 4.5,
+      "image": "https://yrqfiigvpzdvprzncvrn.supabase.co/storage/v1/object/sign/Nike%20assets/main1-removebg-preview.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJOaWtlIGFzc2V0cy9tYWluMS1yZW1vdmViZy1wcmV2aWV3LnBuZyIsImlhdCI6MTcwMzgzNzA5OCwiZXhwIjoxNzA0NDQxODk4fQ.dwa44-4VKPiLd1SUXcJKBl2l5e2r4NzEPdsXM_6dxzM&t=2023-12-29T08%3A03%3A48.008Z"
+    },
+    {
+      "id": 2,
+      "name": "Nike React Element 55",
+      "price": 89.99,
+      "category": "Casual",
+      "color": "Grey/Blue",
+      "size": ["US 8", "US 9", "US 10"],
+      "rating": 4.2,
+      "image": "https://yrqfiigvpzdvprzncvrn.supabase.co/storage/v1/object/sign/Nike%20assets/main2-removebg-preview.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJOaWtlIGFzc2V0cy9tYWluMi1yZW1vdmViZy1wcmV2aWV3LnBuZyIsImlhdCI6MTcwMzgzNzE4MSwiZXhwIjoxNzA2NDI5MTgxfQ.zHdgqbQyjXWX43BhEhs5iWHzM8ciEd9x9gyd0FBYUbg&t=2023-12-29T08%3A05%3A10.551Z"
+    },
+    {
+      "id": 3,
+      "name": "Nike Zoom Pegasus 37",
+      "price": 109.99,
+      "category": "Running",
+      "color": "Red/Black",
+      "size": ["US 8.5", "US 9.5", "US 10.5"],
+      "rating": 4.8,
+      "image": "https://yrqfiigvpzdvprzncvrn.supabase.co/storage/v1/object/sign/Nike%20assets/main3-removebg-preview.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJOaWtlIGFzc2V0cy9tYWluMy1yZW1vdmViZy1wcmV2aWV3LnBuZyIsImlhdCI6MTcwMzgzNzE5OCwiZXhwIjoxNzA2NDI5MTk4fQ.l9-P0OqVUiOeb1Kki-fNEXtjt1HBrjNloCv9EPC1U2s&t=2023-12-29T08%3A05%3A27.494Z"
+    },
+    {
+      "id": 4,
+      "name": "Nike Air Force 1",
+      "price": 79.99,
+      "category": "Basketball",
+      "color": "White",
+      "size": ["US 8", "US 9", "US 10"],
+      "rating": 4.0,
+      "image": "https://yrqfiigvpzdvprzncvrn.supabase.co/storage/v1/object/sign/Nike%20assets/shoe-removebg-preview.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJOaWtlIGFzc2V0cy9zaG9lLXJlbW92ZWJnLXByZXZpZXcucG5nIiwiaWF0IjoxNzAzODM3MjE0LCJleHAiOjE3MDY0MjkyMTR9.Nxqz8lHyMYaXOvZhN0QwPkatKDRIlTpV_CIk5Ndupps&t=2023-12-29T08%3A05%3A45.612Z"
+    },
+    {
+      "id": 5,
+      "name": "Nike Free RN 5.0",
+      "price": 94.99,
+      "category": "Running",
+      "color": "Blue/Green",
+      "size": ["US 9", "US 10", "US 11"],
+      "rating": 4.6,
+      "image": "https://yrqfiigvpzdvprzncvrn.supabase.co/storage/v1/object/sign/Nike%20assets/shoe2-removebg-preview.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJOaWtlIGFzc2V0cy9zaG9lMi1yZW1vdmViZy1wcmV2aWV3LnBuZyIsImlhdCI6MTcwMzgzNzIzMywiZXhwIjoxNzA2NDI5MjMzfQ.AjAGUYPv14c2G0ACvoKQIIMo_k1jqlYTPwQSJA8sNU4&t=2023-12-29T08%3A06%3A03.155Z"
+    },
+    {
+      "id": 6,
+      "name": "Nike Air Zoom Structure 23",
+      "price": 119.99,
+      "category": "Running",
+      "color": "Black/Pink",
+      "size": ["US 8.5", "US 9.5", "US 10.5"],
+      "rating": 4.7,
+      "image": "https://yrqfiigvpzdvprzncvrn.supabase.co/storage/v1/object/sign/Nike%20assets/shoe3-removebg-preview.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJOaWtlIGFzc2V0cy9zaG9lMy1yZW1vdmViZy1wcmV2aWV3LnBuZyIsImlhdCI6MTcwMzgzNzI1MiwiZXhwIjoxNzA2NDI5MjUyfQ.4DUE-ZbLpY3ZKfTE7nwBGldtx0psjuxhQ_iYan98GGQ&t=2023-12-29T08%3A06%3A22.588Z"
+    },
+    {
+      "id": 7,
+      "name": "Nike Blazer Mid '77",
+      "price": 89.99,
+      "category": "Casual",
+      "color": "White/Red",
+      "size": ["US 8", "US 9", "US 10"],
+      "rating": 4.3,
+      "image": "https://yrqfiigvpzdvprzncvrn.supabase.co/storage/v1/object/sign/Nike%20assets/shoe4-removebg-preview.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJOaWtlIGFzc2V0cy9zaG9lNC1yZW1vdmViZy1wcmV2aWV3LnBuZyIsImlhdCI6MTcwMzgzNzI3MSwiZXhwIjoxNzA2NDI5MjcxfQ.j8d_mHOZdn4q3Jykhjaf2_RCupGg48MlYBCHXlZZMyw&t=2023-12-29T08%3A06%3A45.273Z"
+    },
+    {
+      "id": 8,
+      "name": "Nike Joyride Run Flyknit",
+      "price": 139.99,
+      "category": "Running",
+      "color": "Grey/Yellow",
+      "size": ["US 9", "US 10", "US 11"],
+      "rating": 4.9,
+      "image": "https://yrqfiigvpzdvprzncvrn.supabase.co/storage/v1/object/sign/Nike%20assets/shoe5-removebg-preview.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJOaWtlIGFzc2V0cy9zaG9lNS1yZW1vdmViZy1wcmV2aWV3LnBuZyIsImlhdCI6MTcwMzgzNzI5MywiZXhwIjoxNzA2NDI5MjkzfQ.qooeWTcargjhiEzguZM_WXZ5hUUADrKKBekDQJWnbRE&t=2023-12-29T08%3A07%3A05.171Z"
+    },
+    {
+      "id": 9,
+      "name": "Nike Air Max 90",
+      "price": 99.99,
+      "category": "Casual",
+      "color": "Black/Grey",
+      "size": ["US 8", "US 9", "US 10"],
+      "rating": 4.4,
+      "image": "https://yrqfiigvpzdvprzncvrn.supabase.co/storage/v1/object/sign/Nike%20assets/shoe6-removebg-preview.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJOaWtlIGFzc2V0cy9zaG9lNi1yZW1vdmViZy1wcmV2aWV3LnBuZyIsImlhdCI6MTcwMzgzNzMxMSwiZXhwIjoxNzA2NDI5MzExfQ.cTC1ckQGIgT2fjrx_O262PL1HMOnuWzl3f0W-F8FXHU&t=2023-12-29T08%3A07%3A21.346Z"
+    },
+    {
+      "id": 10,
+      "name": "Nike React Infinity Run Flyknit",
+      "price": 129.99,
+      "category": "Running",
+      "color": "Blue/Orange",
+      "size": ["US 8.5", "US 9.5", "US 10.5"],
+      "rating": 4.6,
+      "image": "https://yrqfiigvpzdvprzncvrn.supabase.co/storage/v1/object/sign/Nike%20assets/shoe7-removebg-preview.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJOaWtlIGFzc2V0cy9zaG9lNy1yZW1vdmViZy1wcmV2aWV3LnBuZyIsImlhdCI6MTcwMzgzNzMyNywiZXhwIjoxNzA2NDI5MzI3fQ.F_JeEQ7hKzV8Az32VNrbtudDflSbb0zW_viFUAyepIA&t=2023-12-29T08%3A07%3A38.477Z"
+    },
+    {
+      "id": 11,
+      "name": "Nike Air Vapormax Flyknit",
+      "price": 159.99,
+      "category": "Running",
+      "color": "Black/Silver",
+      "size": ["US 8", "US 9", "US 10"],
+      "rating": 4.8,
+      "image": "https://yrqfiigvpzdvprzncvrn.supabase.co/storage/v1/object/sign/Nike%20assets/shoe8-removebg-preview.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJOaWtlIGFzc2V0cy9zaG9lOC1yZW1vdmViZy1wcmV2aWV3LnBuZyIsImlhdCI6MTcwMzgzNzM1NSwiZXhwIjoxNzA2NDI5MzU1fQ._LA54VwZzma0IJEYpJHBgy0kav6KpF8l02j7AmRymuk&t=2023-12-29T08%3A08%3A04.460Z"
+    },
+    {
+      "id": 12,
+      "name": "Nike SB Dunk Low",
+      "price": 109.99,
+      "category": "Skateboarding",
+      "color": "Green/Purple",
+      "size": ["US 9", "US 10", "US 11"],
+      "rating": 4.2,
+      "image": "https://yrqfiigvpzdvprzncvrn.supabase.co/storage/v1/object/sign/Nike%20assets/white-removebg-preview.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJOaWtlIGFzc2V0cy93aGl0ZS1yZW1vdmViZy1wcmV2aWV3LnBuZyIsImlhdCI6MTcwMzgzNzM3MiwiZXhwIjoxNzA2NDI5MzcyfQ.KLoulDKDC2L6jytyGmj69u2XBB4EcrwCRFF1xGjUOyw&t=2023-12-29T08%3A08%3A21.831Z"
+    },
+    {
+      "id": 13,
+      "name": "Nike Air Zoom Freak 1",
+      "price": 129.99,
+      "category": "Basketball",
+      "color": "Red/Black",
+      "size": ["US 8.5", "US 9.5", "US 10.5"],
+      "rating": 4.5,
+      "image": "https://yrqfiigvpzdvprzncvrn.supabase.co/storage/v1/object/sign/Nike%20assets/Hero2.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJOaWtlIGFzc2V0cy9IZXJvMi5wbmciLCJpYXQiOjE3MDM4Mzc0MzMsImV4cCI6MTcwNjQyOTQzM30.5wnAGwY-U6WJoP3ov1wtoKUbSHHqCfaoATiaw-jAjLw&t=2023-12-29T08%3A09%3A23.498Z"
+    },
+    {
+      "id": 14,
+      "name": "Nike Air Presto",
+      "price": 99.99,
+      "category": "Running",
+      "color": "White/Blue",
+      "size": ["US 8", "US 9", "US 10"],
+      "rating": 4.1,
+      "image": "https://yrqfiigvpzdvprzncvrn.supabase.co/storage/v1/object/sign/Nike%20assets/main2-removebg-preview%20(1).png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJOaWtlIGFzc2V0cy9tYWluMi1yZW1vdmViZy1wcmV2aWV3ICgxKS5wbmciLCJpYXQiOjE3MDM4Mzc0NzksImV4cCI6MTcwNjQyOTQ3OX0.fwmwzHXCYnbE1boB5FtaD1ECc_szqZ6gwuGa-e5yupg&t=2023-12-29T08%3A10%3A08.921Z"
+    },
+    {
+      "id": 15,
+      "name": "Nike Kyrie 7",
+      "price": 119.99,
+      "category": "Basketball",
+      "color": "Black/Yellow",
+      "size": ["US 9", "US 10", "US 11"],
+      "rating": 4.7,
+      "image": "https://yrqfiigvpzdvprzncvrn.supabase.co/storage/v1/object/sign/Nike%20assets/main3-removebg-preview.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJOaWtlIGFzc2V0cy9tYWluMy1yZW1vdmViZy1wcmV2aWV3LnBuZyIsImlhdCI6MTcwMzgzNzUwMywiZXhwIjoxNzA2NDI5NTAzfQ.z7Gs9eo3znOwH7j1PWPUCG4x5gYtXX0R2y16DxlsxcU&t=2023-12-29T08%3A10%3A33.382Z"
+    }
+  ]
+}
