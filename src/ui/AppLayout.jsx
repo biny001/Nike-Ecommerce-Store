@@ -7,7 +7,7 @@ import SideBar from "./SideBar";
 
 function AppLayout() {
   return (
-    <div className=" relative  ">
+    <div className=" relative overflow-x-hidden ">
       <Header />
       <SideBar />
       <Main>

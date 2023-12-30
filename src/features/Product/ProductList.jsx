@@ -1,18 +1,11 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import ProductItem from "./ProductItem";
+import { ProductContext } from "../../contexts/ProductContext";
+import { CartContext } from "../../contexts/CartContext";
 
 function ProductList() {
-  const [product, setProduct] = useState([]);
-
-  useEffect(function () {
-    async function fetchProducts() {
-      const response = await fetch("http://localhost:3000/shoes");
-      const data = await response.json();
-      console.log(data);
-      setProduct(data);
-    }
-    fetchProducts();
-  }, []);
+  const { product } = useContext(ProductContext);
+  const { handleAddItem } = useContext(CartContext);
   return (
     <div className=" min-h-screen">
       <h1>Product List</h1>
@@ -21,6 +14,7 @@ function ProductList() {
           <ProductItem
             key={product.id}
             product={product}
+            addItem={handleAddItem}
           />
         ))}
       </div>

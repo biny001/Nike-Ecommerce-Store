@@ -2,7 +2,7 @@ import { BsEyeFill } from "react-icons/bs";
 import { FaPlus } from "react-icons/fa6";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
-function ProductItem({ product }) {
+function ProductItem({ product, addItem }) {
   const { id, name, price, image, category } = product;
   return (
     <div>
@@ -23,7 +23,7 @@ function ProductItem({ product }) {
         </div>
         {/* Buttons */}
         <div className="absolute -right-11 top-6 flex flex-col items-center justify-center gap-y-2 p-2 opacity-0 transition-all duration-300 group-hover:right-5 group-hover:opacity-100">
-          <button>
+          <button onClick={() => addItem(product)}>
             <div className="flex h-12 w-12 items-center justify-center bg-red-500 text-white">
               <FaPlus className="text-3xl" />
             </div>

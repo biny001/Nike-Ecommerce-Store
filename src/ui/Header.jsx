@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import { FaCartShopping } from "react-icons/fa6";
 import SvgHeader from "./SvgHeader";
+import { useContext } from "react";
+import { SideBarContext } from "../contexts/SideBarContext";
 
 function Header() {
+  const { handleIsOpen } = useContext(SideBarContext);
   return (
     <div className="flex  justify-between px-12 pb-4 pt-5 text-lg">
       <SvgHeader />
@@ -26,10 +29,13 @@ function Header() {
           Product
         </Link>
       </ul>
-      <Link className=" lg:mr-10">
+      <button
+        onClick={handleIsOpen}
+        className=" lg:mr-10"
+      >
         {" "}
         <FaCartShopping size={"1.5rem"} />
-      </Link>
+      </button>
     </div>
   );
 }
