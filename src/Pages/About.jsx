@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className=" h-screen">
+    <div className="min-h-screen">
       <p>about</p>
     </div>
   );

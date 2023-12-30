@@ -1,5 +1,5 @@
 function PageNotFound() {
-  return <div>Page Not found</div>;
+  return <div className="h-screen">Page Not found</div>;
 }
 
 export default PageNotFound;
